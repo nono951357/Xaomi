@@ -1,0 +1,164 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; /* Add box-sizing property */
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   font-family: Arial, sans-serif; /* Add a modern font */
+   background-color: #f8f9fa; /* Set a background color */
+}
+
+main {
+   flex: 1 0 auto;
+}
+
+form {
+   padding: 15px;
+}
+
+.navbar-top {
+   width: 100%;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   text-align: center;
+   background-color: #f8f9fa;
+   padding: 10px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.navbar-nav {
+   margin: auto;
+}
+
+.nav-link {
+   color: white; /* Change link color */
+   margin-left: 1em;
+   text-decoration: none; /* Remove underline */
+   transition: color 0.3s ease; /* Add a smooth transition */
+}
+
+.nav-link:hover {
+   color: #007bff; /* Change hover color */
+}
+
+.btn1 {
+   background-color: #007bff; /* Change button background color */
+   color: white; /* Change button text color */
+   padding: 10px 20px; /* Add some padding */
+   border: none; /* Remove border */
+   border-radius: 5px; /* Add border radius */
+   cursor: pointer;
+   transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+.btn1:hover {
+   background-color: #0056b3; /* Change hover background color */
+}
+
+.card {
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+   cursor: pointer;
+   transition: box-shadow 0.3s ease; /* Add a smooth transition */
+}
+
+.card:hover {
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Change hover box shadow */
+}
+
+.card h4 {
+   display: flex;
+   justify-content: center;
+   margin: 10px 0; /* Add some margin */
+}
+
+.btnbutton {
+   display: flex;
+   align-items: center;
+}
+
+#btn2 {
+   width: 200px;
+   background-color: #007bff; /* Change button background color */
+   color: white; /* Change button text color */
+   padding: 10px 20px; /* Add some padding */
+   border: none; /* Remove border */
+   border-radius: 5px; /* Add border radius */
+   cursor: pointer;
+   transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+#btn2:hover {
+   background-color: #0056b3; /* Change hover background color */
+}
+
+.content {
+   width: 600px;
+   margin: 20px auto; /* Center the content */
+   background-color: white; /* Add a background color */
+   padding: 20px; /* Add some padding */
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+   border-radius: 5px; /* Add border radius */
+}
+
+.main-content {
+   width: 100%;
+   height: 90vh;
+   background-image: url('../images/cover.jpg');
+   background-position: center;
+   background-size: cover;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-size: 2rem;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+}
+
+hr {
+   border: none; /* Remove border */
+   border-top: 2px solid #333; /* Add a custom border */
+   margin: 20px 0; /* Add some margin */
+}
+
+footer {
+   position: relative;
+   bottom: 0;
+   text-align: center;
+   font-size: large;
+   background-color: black;
+   color: white;
+   width: 100%;
+   height: 30px;
+}
+
+/* This will affect the scrollbar on the whole page */
+::-webkit-scrollbar {
+   width: 11px; /* Width of the scrollbar */
+
+
+}
+
+::-webkit-scrollbar-track {
+   background: #f1f1f1; /* Color of the track */
+
+   
+}
+
+::-webkit-scrollbar-thumb {
+   background: #888; /* Color of the scroll thumb */
+   border-radius: 4px; /* Roundness of the scroll thumb */
+   height: 8px; /* Reduced height of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background: #555; /* Color of the scroll thumb on hover */
+   height: 8px; /* Reduced height of the thumb on hover */
+   border-radius: 4px;
+}
